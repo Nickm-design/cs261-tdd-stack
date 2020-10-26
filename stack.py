@@ -11,12 +11,9 @@ class Stack:
        return self.items == []
 
     def pop(self):
-        if self.is_empty:
-            raise IndexError()
+        return self.items.pop()
 
     def peek(self):
-        # if self.is_empty:
-        #     raise IndexError()
         return self.items[0]
 
     def push(self, value):
