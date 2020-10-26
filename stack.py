@@ -13,3 +13,7 @@ class Stack:
     def pop(self):
         if self.is_empty:
             raise IndexError()
+
+    def peek(self):
+        if self.is_empty:
+            raise IndexError()
