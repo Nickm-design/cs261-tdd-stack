@@ -9,3 +9,7 @@ class Stack:
 
     def is_empty(self):
         return self
+
+    def pop(self):
+        if self.is_empty:
+            raise IndexError()
